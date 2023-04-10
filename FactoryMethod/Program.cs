@@ -8,7 +8,7 @@ var documents = new Document[] {
 };
 // Display document pages
 foreach (var document in documents) {
-    Console.WriteLine("\n" + document.GetType().Name + "--");
+    Console.WriteLine("\n" + document.GetType().Name + "-- ");
     foreach (var page in document.GetPages()) {
         Console.WriteLine(" " + page.GetType().Name);
     }
